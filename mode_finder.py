@@ -20,7 +20,7 @@ if len(unique_num) == len(numbers):
 #     else:
 #         balance -= 1
     
-#creates dict with keys being the unique numbers from the numbers list
+#creates dict with keys being the unique numbers from the numbers list.
 counter_dict = dict.fromkeys(unique_num, 0)
 
 for num in numbers:
@@ -32,3 +32,4 @@ test = max(counter_dict.values())
 for k in counter_dict:
     if counter_dict[k] == test:
         print(k)
+
